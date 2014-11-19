@@ -12,14 +12,14 @@
 		A184114A1A1C695A00C2387C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A18411481A1C695A00C2387C /* Main.storyboard */; };
 		A184114C1A1C695A00C2387C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A184114B1A1C695A00C2387C /* Images.xcassets */; };
 		A184114F1A1C695A00C2387C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A184114D1A1C695A00C2387C /* LaunchScreen.xib */; };
-		A184115B1A1C695A00C2387C /* AstroWatchKitTableDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A184115A1A1C695A00C2387C /* AstroWatchKitTableDemoTests.swift */; };
+		A184115B1A1C695A00C2387C /* AstroWatchKitTableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A184115A1A1C695A00C2387C /* AstroWatchKitTableTests.swift */; };
 		A184116B1A1C696900C2387C /* WatchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A184116A1A1C696900C2387C /* WatchKit.framework */; };
 		A18411701A1C696900C2387C /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A184116F1A1C696900C2387C /* InterfaceController.swift */; };
 		A18411721A1C696900C2387C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A18411711A1C696900C2387C /* Images.xcassets */; };
-		A18411761A1C696A00C2387C /* AstroWatchKitTableDemo Watch App.app in Resources */ = {isa = PBXBuildFile; fileRef = A18411751A1C696A00C2387C /* AstroWatchKitTableDemo Watch App.app */; };
+		A18411761A1C696A00C2387C /* AstroWatchKitDemo Watch App.app in Resources */ = {isa = PBXBuildFile; fileRef = A18411751A1C696A00C2387C /* AstroWatchKitDemo Watch App.app */; };
 		A184117D1A1C696A00C2387C /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A184117C1A1C696A00C2387C /* Interface.storyboard */; };
 		A184117F1A1C696A00C2387C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A184117E1A1C696A00C2387C /* Images.xcassets */; };
-		A18411821A1C696A00C2387C /* AstroWatchKitTableDemo WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A18411681A1C696900C2387C /* AstroWatchKitTableDemo WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A18411821A1C696A00C2387C /* AstroWatchKitDemo WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A18411681A1C696900C2387C /* AstroWatchKitDemo WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		A184118B1A1C69C900C2387C /* AstroTableRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A184118A1A1C69C900C2387C /* AstroTableRowController.swift */; };
 		A1D2F8741A1C747F008BCA7C /* AstroDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D2F8731A1C747F008BCA7C /* AstroDetailController.swift */; };
 /* End PBXBuildFile section */
@@ -55,7 +55,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				A18411821A1C696A00C2387C /* AstroWatchKitTableDemo WatchKit Extension.appex in Embed App Extensions */,
+				A18411821A1C696A00C2387C /* AstroWatchKitDemo WatchKit Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -63,22 +63,22 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		A184113F1A1C695A00C2387C /* AstroWatchKitTableDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AstroWatchKitTableDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A184113F1A1C695A00C2387C /* AstroWatchKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AstroWatchKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A18411431A1C695A00C2387C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A18411441A1C695A00C2387C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A18411461A1C695A00C2387C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A18411491A1C695A00C2387C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A184114B1A1C695A00C2387C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A184114E1A1C695A00C2387C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		A18411541A1C695A00C2387C /* AstroWatchKitTableDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AstroWatchKitTableDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A18411541A1C695A00C2387C /* AstroWatchKitDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AstroWatchKitDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A18411591A1C695A00C2387C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A184115A1A1C695A00C2387C /* AstroWatchKitTableDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstroWatchKitTableDemoTests.swift; sourceTree = "<group>"; };
-		A18411681A1C696900C2387C /* AstroWatchKitTableDemo WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "AstroWatchKitTableDemo WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A184115A1A1C695A00C2387C /* AstroWatchKitTableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstroWatchKitTableTests.swift; sourceTree = "<group>"; };
+		A18411681A1C696900C2387C /* AstroWatchKitDemo WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "AstroWatchKitDemo WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A184116A1A1C696900C2387C /* WatchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchKit.framework; path = System/Library/Frameworks/WatchKit.framework; sourceTree = SDKROOT; };
 		A184116E1A1C696900C2387C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A184116F1A1C696900C2387C /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
 		A18411711A1C696900C2387C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		A18411751A1C696A00C2387C /* AstroWatchKitTableDemo Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AstroWatchKitTableDemo Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A18411751A1C696A00C2387C /* AstroWatchKitDemo Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AstroWatchKitDemo Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A184117B1A1C696A00C2387C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A184117C1A1C696A00C2387C /* Interface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
 		A184117E1A1C696A00C2387C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -115,10 +115,10 @@
 		A18411361A1C695A00C2387C = {
 			isa = PBXGroup;
 			children = (
-				A18411411A1C695A00C2387C /* AstroWatchKitTableDemo */,
-				A18411571A1C695A00C2387C /* AstroWatchKitTableDemoTests */,
-				A184116C1A1C696900C2387C /* AstroWatchKitTableDemo WatchKit Extension */,
-				A18411791A1C696A00C2387C /* AstroWatchKitTableDemo Watch App */,
+				A18411411A1C695A00C2387C /* AstroWatchKitDemo */,
+				A18411571A1C695A00C2387C /* AstroWatchKitTableTests */,
+				A184116C1A1C696900C2387C /* AstroWatchKitDemo WatchKit Extension */,
+				A18411791A1C696A00C2387C /* AstroWatchKitDemo Watch App */,
 				A18411691A1C696900C2387C /* Frameworks */,
 				A18411401A1C695A00C2387C /* Products */,
 			);
@@ -127,15 +127,15 @@
 		A18411401A1C695A00C2387C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A184113F1A1C695A00C2387C /* AstroWatchKitTableDemo.app */,
-				A18411541A1C695A00C2387C /* AstroWatchKitTableDemoTests.xctest */,
-				A18411681A1C696900C2387C /* AstroWatchKitTableDemo WatchKit Extension.appex */,
-				A18411751A1C696A00C2387C /* AstroWatchKitTableDemo Watch App.app */,
+				A184113F1A1C695A00C2387C /* AstroWatchKitDemo.app */,
+				A18411541A1C695A00C2387C /* AstroWatchKitDemoTests.xctest */,
+				A18411681A1C696900C2387C /* AstroWatchKitDemo WatchKit Extension.appex */,
+				A18411751A1C696A00C2387C /* AstroWatchKitDemo Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A18411411A1C695A00C2387C /* AstroWatchKitTableDemo */ = {
+		A18411411A1C695A00C2387C /* AstroWatchKitDemo */ = {
 			isa = PBXGroup;
 			children = (
 				A18411441A1C695A00C2387C /* AppDelegate.swift */,
@@ -145,6 +145,7 @@
 				A184114D1A1C695A00C2387C /* LaunchScreen.xib */,
 				A18411421A1C695A00C2387C /* Supporting Files */,
 			);
+			name = AstroWatchKitDemo;
 			path = AstroWatchKitTableDemo;
 			sourceTree = "<group>";
 		};
@@ -156,12 +157,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		A18411571A1C695A00C2387C /* AstroWatchKitTableDemoTests */ = {
+		A18411571A1C695A00C2387C /* AstroWatchKitTableTests */ = {
 			isa = PBXGroup;
 			children = (
-				A184115A1A1C695A00C2387C /* AstroWatchKitTableDemoTests.swift */,
+				A184115A1A1C695A00C2387C /* AstroWatchKitTableTests.swift */,
 				A18411581A1C695A00C2387C /* Supporting Files */,
 			);
+			name = AstroWatchKitTableTests;
 			path = AstroWatchKitTableDemoTests;
 			sourceTree = "<group>";
 		};
@@ -181,7 +183,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		A184116C1A1C696900C2387C /* AstroWatchKitTableDemo WatchKit Extension */ = {
+		A184116C1A1C696900C2387C /* AstroWatchKitDemo WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
 				A184116F1A1C696900C2387C /* InterfaceController.swift */,
@@ -190,6 +192,7 @@
 				A18411711A1C696900C2387C /* Images.xcassets */,
 				A184116D1A1C696900C2387C /* Supporting Files */,
 			);
+			name = "AstroWatchKitDemo WatchKit Extension";
 			path = "AstroWatchKitTableDemo WatchKit Extension";
 			sourceTree = "<group>";
 		};
@@ -201,13 +204,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		A18411791A1C696A00C2387C /* AstroWatchKitTableDemo Watch App */ = {
+		A18411791A1C696A00C2387C /* AstroWatchKitDemo Watch App */ = {
 			isa = PBXGroup;
 			children = (
 				A184117C1A1C696A00C2387C /* Interface.storyboard */,
 				A184117E1A1C696A00C2387C /* Images.xcassets */,
 				A184117A1A1C696A00C2387C /* Supporting Files */,
 			);
+			name = "AstroWatchKitDemo Watch App";
 			path = "AstroWatchKitTableDemo Watch App";
 			sourceTree = "<group>";
 		};
@@ -222,9 +226,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A184113E1A1C695A00C2387C /* AstroWatchKitTableDemo */ = {
+		A184113E1A1C695A00C2387C /* AstroWatchKitDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A184115E1A1C695A00C2387C /* Build configuration list for PBXNativeTarget "AstroWatchKitTableDemo" */;
+			buildConfigurationList = A184115E1A1C695A00C2387C /* Build configuration list for PBXNativeTarget "AstroWatchKitDemo" */;
 			buildPhases = (
 				A184113B1A1C695A00C2387C /* Sources */,
 				A184113C1A1C695A00C2387C /* Frameworks */,
@@ -236,14 +240,14 @@
 			dependencies = (
 				A18411811A1C696A00C2387C /* PBXTargetDependency */,
 			);
-			name = AstroWatchKitTableDemo;
+			name = AstroWatchKitDemo;
 			productName = AstroWatchKitTableDemo;
-			productReference = A184113F1A1C695A00C2387C /* AstroWatchKitTableDemo.app */;
+			productReference = A184113F1A1C695A00C2387C /* AstroWatchKitDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A18411531A1C695A00C2387C /* AstroWatchKitTableDemoTests */ = {
+		A18411531A1C695A00C2387C /* AstroWatchKitDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A18411611A1C695A00C2387C /* Build configuration list for PBXNativeTarget "AstroWatchKitTableDemoTests" */;
+			buildConfigurationList = A18411611A1C695A00C2387C /* Build configuration list for PBXNativeTarget "AstroWatchKitDemoTests" */;
 			buildPhases = (
 				A18411501A1C695A00C2387C /* Sources */,
 				A18411511A1C695A00C2387C /* Frameworks */,
@@ -254,14 +258,14 @@
 			dependencies = (
 				A18411561A1C695A00C2387C /* PBXTargetDependency */,
 			);
-			name = AstroWatchKitTableDemoTests;
+			name = AstroWatchKitDemoTests;
 			productName = AstroWatchKitTableDemoTests;
-			productReference = A18411541A1C695A00C2387C /* AstroWatchKitTableDemoTests.xctest */;
+			productReference = A18411541A1C695A00C2387C /* AstroWatchKitDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A18411671A1C696900C2387C /* AstroWatchKitTableDemo WatchKit Extension */ = {
+		A18411671A1C696900C2387C /* AstroWatchKitDemo WatchKit Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A18411861A1C696A00C2387C /* Build configuration list for PBXNativeTarget "AstroWatchKitTableDemo WatchKit Extension" */;
+			buildConfigurationList = A18411861A1C696A00C2387C /* Build configuration list for PBXNativeTarget "AstroWatchKitDemo WatchKit Extension" */;
 			buildPhases = (
 				A18411641A1C696900C2387C /* Sources */,
 				A18411651A1C696900C2387C /* Frameworks */,
@@ -272,14 +276,14 @@
 			dependencies = (
 				A18411781A1C696A00C2387C /* PBXTargetDependency */,
 			);
-			name = "AstroWatchKitTableDemo WatchKit Extension";
+			name = "AstroWatchKitDemo WatchKit Extension";
 			productName = "AstroWatchKitTableDemo WatchKit Extension";
-			productReference = A18411681A1C696900C2387C /* AstroWatchKitTableDemo WatchKit Extension.appex */;
+			productReference = A18411681A1C696900C2387C /* AstroWatchKitDemo WatchKit Extension.appex */;
 			productType = "com.apple.product-type.watchkit-extension";
 		};
-		A18411741A1C696A00C2387C /* AstroWatchKitTableDemo Watch App */ = {
+		A18411741A1C696A00C2387C /* AstroWatchKitDemo Watch App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A18411831A1C696A00C2387C /* Build configuration list for PBXNativeTarget "AstroWatchKitTableDemo Watch App" */;
+			buildConfigurationList = A18411831A1C696A00C2387C /* Build configuration list for PBXNativeTarget "AstroWatchKitDemo Watch App" */;
 			buildPhases = (
 				A18411731A1C696A00C2387C /* Resources */,
 			);
@@ -287,9 +291,9 @@
 			);
 			dependencies = (
 			);
-			name = "AstroWatchKitTableDemo Watch App";
+			name = "AstroWatchKitDemo Watch App";
 			productName = "AstroWatchKitTableDemo Watch App";
-			productReference = A18411751A1C696A00C2387C /* AstroWatchKitTableDemo Watch App.app */;
+			productReference = A18411751A1C696A00C2387C /* AstroWatchKitDemo Watch App.app */;
 			productType = "com.apple.product-type.application.watchapp";
 		};
 /* End PBXNativeTarget section */
@@ -316,7 +320,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A184113A1A1C695A00C2387C /* Build configuration list for PBXProject "AstroWatchKitTableDemo" */;
+			buildConfigurationList = A184113A1A1C695A00C2387C /* Build configuration list for PBXProject "AstroWatchKitDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -329,10 +333,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A184113E1A1C695A00C2387C /* AstroWatchKitTableDemo */,
-				A18411531A1C695A00C2387C /* AstroWatchKitTableDemoTests */,
-				A18411671A1C696900C2387C /* AstroWatchKitTableDemo WatchKit Extension */,
-				A18411741A1C696A00C2387C /* AstroWatchKitTableDemo Watch App */,
+				A184113E1A1C695A00C2387C /* AstroWatchKitDemo */,
+				A18411531A1C695A00C2387C /* AstroWatchKitDemoTests */,
+				A18411671A1C696900C2387C /* AstroWatchKitDemo WatchKit Extension */,
+				A18411741A1C696A00C2387C /* AstroWatchKitDemo Watch App */,
 			);
 		};
 /* End PBXProject section */
@@ -359,7 +363,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A18411761A1C696A00C2387C /* AstroWatchKitTableDemo Watch App.app in Resources */,
+				A18411761A1C696A00C2387C /* AstroWatchKitDemo Watch App.app in Resources */,
 				A18411721A1C696900C2387C /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -389,7 +393,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A184115B1A1C695A00C2387C /* AstroWatchKitTableDemoTests.swift in Sources */,
+				A184115B1A1C695A00C2387C /* AstroWatchKitTableTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,17 +412,17 @@
 /* Begin PBXTargetDependency section */
 		A18411561A1C695A00C2387C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A184113E1A1C695A00C2387C /* AstroWatchKitTableDemo */;
+			target = A184113E1A1C695A00C2387C /* AstroWatchKitDemo */;
 			targetProxy = A18411551A1C695A00C2387C /* PBXContainerItemProxy */;
 		};
 		A18411781A1C696A00C2387C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A18411741A1C696A00C2387C /* AstroWatchKitTableDemo Watch App */;
+			target = A18411741A1C696A00C2387C /* AstroWatchKitDemo Watch App */;
 			targetProxy = A18411771A1C696A00C2387C /* PBXContainerItemProxy */;
 		};
 		A18411811A1C696A00C2387C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A18411671A1C696900C2387C /* AstroWatchKitTableDemo WatchKit Extension */;
+			target = A18411671A1C696900C2387C /* AstroWatchKitDemo WatchKit Extension */;
 			targetProxy = A18411801A1C696A00C2387C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -527,7 +531,7 @@
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = AstroWatchKitTableDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = AstroWatchKitDemo;
 			};
 			name = Debug;
 		};
@@ -538,7 +542,7 @@
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = AstroWatchKitTableDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = AstroWatchKitDemo;
 			};
 			name = Release;
 		};
@@ -556,7 +560,7 @@
 				);
 				INFOPLIST_FILE = AstroWatchKitTableDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = AstroWatchKitDemoTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AstroWatchKitTableDemo.app/AstroWatchKitTableDemo";
 			};
 			name = Debug;
@@ -571,7 +575,7 @@
 				);
 				INFOPLIST_FILE = AstroWatchKitTableDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = AstroWatchKitDemoTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AstroWatchKitTableDemo.app/AstroWatchKitTableDemo";
 			};
 			name = Release;
@@ -587,7 +591,7 @@
 				);
 				IBSC_MODULE = AstroWatchKitTableDemo_WatchKit_Extension;
 				INFOPLIST_FILE = "AstroWatchKitTableDemo Watch App/Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "AstroWatchKitDemo Watch App";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
 				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
@@ -601,7 +605,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				IBSC_MODULE = AstroWatchKitTableDemo_WatchKit_Extension;
 				INFOPLIST_FILE = "AstroWatchKitTableDemo Watch App/Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "AstroWatchKitDemo Watch App";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
 				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
@@ -617,7 +621,7 @@
 				);
 				INFOPLIST_FILE = "AstroWatchKitTableDemo WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_NAME = "${TARGET_NAME}";
+				PRODUCT_NAME = "AstroWatchKitDemo WatchKit Extension";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -627,7 +631,7 @@
 			buildSettings = {
 				INFOPLIST_FILE = "AstroWatchKitTableDemo WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_NAME = "${TARGET_NAME}";
+				PRODUCT_NAME = "AstroWatchKitDemo WatchKit Extension";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -635,7 +639,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A184113A1A1C695A00C2387C /* Build configuration list for PBXProject "AstroWatchKitTableDemo" */ = {
+		A184113A1A1C695A00C2387C /* Build configuration list for PBXProject "AstroWatchKitDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A184115C1A1C695A00C2387C /* Debug */,
@@ -644,7 +648,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A184115E1A1C695A00C2387C /* Build configuration list for PBXNativeTarget "AstroWatchKitTableDemo" */ = {
+		A184115E1A1C695A00C2387C /* Build configuration list for PBXNativeTarget "AstroWatchKitDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A184115F1A1C695A00C2387C /* Debug */,
@@ -653,7 +657,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A18411611A1C695A00C2387C /* Build configuration list for PBXNativeTarget "AstroWatchKitTableDemoTests" */ = {
+		A18411611A1C695A00C2387C /* Build configuration list for PBXNativeTarget "AstroWatchKitDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A18411621A1C695A00C2387C /* Debug */,
@@ -662,7 +666,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A18411831A1C696A00C2387C /* Build configuration list for PBXNativeTarget "AstroWatchKitTableDemo Watch App" */ = {
+		A18411831A1C696A00C2387C /* Build configuration list for PBXNativeTarget "AstroWatchKitDemo Watch App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A18411841A1C696A00C2387C /* Debug */,
@@ -671,7 +675,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A18411861A1C696A00C2387C /* Build configuration list for PBXNativeTarget "AstroWatchKitTableDemo WatchKit Extension" */ = {
+		A18411861A1C696A00C2387C /* Build configuration list for PBXNativeTarget "AstroWatchKitDemo WatchKit Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A18411871A1C696A00C2387C /* Debug */,

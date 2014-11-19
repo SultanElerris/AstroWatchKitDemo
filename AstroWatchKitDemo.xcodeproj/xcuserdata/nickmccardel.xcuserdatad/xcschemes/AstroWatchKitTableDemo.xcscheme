@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A184113E1A1C695A00C2387C"
-               BuildableName = "AstroWatchKitTableDemo.app"
-               BlueprintName = "AstroWatchKitTableDemo"
-               ReferencedContainer = "container:AstroWatchKitTableDemo.xcodeproj">
+               BuildableName = "AstroWatchKitDemo.app"
+               BlueprintName = "AstroWatchKitDemo"
+               ReferencedContainer = "container:AstroWatchKitDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A18411531A1C695A00C2387C"
-               BuildableName = "AstroWatchKitTableDemoTests.xctest"
-               BlueprintName = "AstroWatchKitTableDemoTests"
-               ReferencedContainer = "container:AstroWatchKitTableDemo.xcodeproj">
+               BuildableName = "AstroWatchKitDemoTests.xctest"
+               BlueprintName = "AstroWatchKitDemoTests"
+               ReferencedContainer = "container:AstroWatchKitDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A18411531A1C695A00C2387C"
-               BuildableName = "AstroWatchKitTableDemoTests.xctest"
-               BlueprintName = "AstroWatchKitTableDemoTests"
-               ReferencedContainer = "container:AstroWatchKitTableDemo.xcodeproj">
+               BuildableName = "AstroWatchKitDemoTests.xctest"
+               BlueprintName = "AstroWatchKitDemoTests"
+               ReferencedContainer = "container:AstroWatchKitDemo.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A184113E1A1C695A00C2387C"
-            BuildableName = "AstroWatchKitTableDemo.app"
-            BlueprintName = "AstroWatchKitTableDemo"
-            ReferencedContainer = "container:AstroWatchKitTableDemo.xcodeproj">
+            BuildableName = "AstroWatchKitDemo.app"
+            BlueprintName = "AstroWatchKitDemo"
+            ReferencedContainer = "container:AstroWatchKitDemo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -77,9 +77,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A184113E1A1C695A00C2387C"
-            BuildableName = "AstroWatchKitTableDemo.app"
-            BlueprintName = "AstroWatchKitTableDemo"
-            ReferencedContainer = "container:AstroWatchKitTableDemo.xcodeproj">
+            BuildableName = "AstroWatchKitDemo.app"
+            BlueprintName = "AstroWatchKitDemo"
+            ReferencedContainer = "container:AstroWatchKitDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -96,9 +96,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A184113E1A1C695A00C2387C"
-            BuildableName = "AstroWatchKitTableDemo.app"
-            BlueprintName = "AstroWatchKitTableDemo"
-            ReferencedContainer = "container:AstroWatchKitTableDemo.xcodeproj">
+            BuildableName = "AstroWatchKitDemo.app"
+            BlueprintName = "AstroWatchKitDemo"
+            ReferencedContainer = "container:AstroWatchKitDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
