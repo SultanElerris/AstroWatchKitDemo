@@ -14,6 +14,8 @@ class InterfaceController: WKInterfaceController {
 
     var astroBodies = ["Sun", "Mercury", "Venus", "Earth", "Moon", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune", "Pluto"]
     
+    //Yes, Pluto. Anarchy in the UK.
+    
     var context: AnyObject?
     
     @IBOutlet weak var astroTable: WKInterfaceTable!

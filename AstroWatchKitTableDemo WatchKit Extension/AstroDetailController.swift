@@ -16,7 +16,7 @@ class AstroDetailController: WKInterfaceController {
     
     override init(context: AnyObject?) {
         super.init(context: context)
-        
+                
             self.astroDetailLabel.setText(context as String!)
             
             self.astroDetailImage.setImage(UIImage(named: context as String!))
