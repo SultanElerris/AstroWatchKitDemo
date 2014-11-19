@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9F5D8A97-3E11-40D5-840C-C3628E3BCB77</string>
+	<key>IDESourceControlProjectName</key>
+	<string>AstroWatchKitDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>03B47FEC60BBF257FB648767D6D71AB26B7FCC90</key>
+		<string>https://github.com/nickmc1210/AstroWatchKitDemo.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>AstroWatchKitDemo.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>03B47FEC60BBF257FB648767D6D71AB26B7FCC90</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/nickmc1210/AstroWatchKitDemo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>03B47FEC60BBF257FB648767D6D71AB26B7FCC90</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>03B47FEC60BBF257FB648767D6D71AB26B7FCC90</string>
+			<key>IDESourceControlWCCName</key>
+			<string>AstroWatchKitTableDemo</string>
+		</dict>
+	</array>
+</dict>
+</plist>
